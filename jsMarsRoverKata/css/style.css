@@ -1,0 +1,181 @@
+body{
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 0.2rem;
+  background-color: gainsboro;
+}
+h1 {
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+#game {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 95vw;
+}
+#panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 45vw;
+  heigth: 45vw;
+  
+}
+#form{
+  position: fixed;
+  bottom: 25vh;
+  display: flex;
+  flex-direction: column;
+}
+#form-first-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+}
+#form-first-row label {
+  text-align: center;
+  font-weight: 500;
+}
+#form-first-row input {
+  text-transform: uppercase;
+}
+#form-second-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 1.5rem;
+}
+#form-second-row label {
+  text-align: center;
+    font-weight: 500;
+}
+
+#form-second-row input {
+  margin: 0 1rem 0 0;
+  text-transform: uppercase;
+}
+#form-third-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+}
+#form-third-row label {
+  text-align: center;
+  font-weight: 500;
+}
+#form-third-row input {
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+#form-fourth-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+}
+#form-fourth-row label {
+  text-align: center;
+  font-weight: 500;
+}
+#form-fourth-row input {
+  width: 5vw;
+  margin: 0 0.125rem;
+}
+#form-fourth-row button {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#form-fifth-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+}
+#form-fifth-row label {
+  text-align: center;
+  font-weight: 500;
+}
+#form-fifth-row input {
+  width: 5vw;
+  margin: 0 0.125rem;
+}
+#form-fifth-row button {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#board {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50vw;  
+}
+#table {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+#table-body {
+  background-color: white;
+}
+#table-body tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+}
+#table-body tr td {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.8rem;
+  height: 5.8rem;
+  border: 2px solid gainsboro;
+  color: gainsboro;
+}
+#checkedBoxWhite{
+  background-color: white;
+}
+#checkedBoxN{
+  background-image: url("https://cdn.pixabay.com/photo/2015/06/12/18/31/cute-807306_960_720.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  transform: rotate(180deg);
+}
+#checkedBoxS{
+  background-image: url("https://cdn.pixabay.com/photo/2015/06/12/18/31/cute-807306_960_720.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+#checkedBoxE{
+  background-image: url("https://cdn.pixabay.com/photo/2015/06/12/18/31/cute-807306_960_720.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  transform: rotate(-90deg);
+}
+#checkedBoxW{
+  background-image: url("https://cdn.pixabay.com/photo/2015/06/12/18/31/cute-807306_960_720.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  transform: rotate(90deg);
+}
+#blockedBox{
+  background-image: url("https://media.istockphoto.com/photos/texture-of-a-stone-wall-or-floor-for-background-picture-id1168252696");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#prizedBox{
+  background-image: url("https://cdn.pixabay.com/photo/2016/09/16/19/20/trophy-1674911_960_720.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
